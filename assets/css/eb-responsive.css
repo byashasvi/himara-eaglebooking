@@ -1,0 +1,613 @@
+/*================================================
+* Plugin Name: Eagle Booking
+* Version: 1.3.3
+* Author Name: Jomin Muskaj (Eagle-Themes)
+* Author URI: eagle-themes.com
+================================================= */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    .eb-container {
+        max-width: 1200px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+    .room-list-item .room-services {
+        margin-top: 0;
+    }
+
+    /* .daterangepicker.ltr .calendar, .daterangepicker.ltr .ranges {
+        float: none;
+    } */
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+    .eb-page main,
+    .eb-page main.room-page {
+        padding: 50px 0;
+    }
+
+
+
+    .eb-stepline {
+        display: none;
+    }
+
+    .flex-row.row {
+        display: block;
+    }
+
+    .eb-g-m-1-1 {
+        grid-template-columns: 1fr;
+    }
+
+
+    .room-list-item-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .room-list-item img {
+        transform: none;
+    }
+
+    .room-list-item .room-price-search {
+        position: relative;
+        margin-bottom: 0;
+    }
+
+    .room-list-item .room-price-details {
+        border-left: 0;
+    }
+
+    .eb-alert {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .eb-alert i {
+        display: none;
+    }
+
+    .eb-page-header {
+        padding: 30px 0;
+    }
+
+    .eb-page-header .title h1,
+    .eb-page-header .room-price .price-number {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .room-more-details {
+        position: relative;
+    }
+
+    .rooms-bar {
+        border-top: 1px solid #ebebeb;
+        padding-top: 15px;
+    }
+
+    .eb-search-page .rooms-bar .rooms-view {
+        display: none;
+    }
+
+    .eb-page .eagle-booking-booking-form .gdpr {
+        margin-bottom: 50px;
+    }
+
+    .rooms-bar .rooms-sorting .dropdown-menu {
+        min-width: 100%;
+    }
+
+    .page-title .room-price .price-number,
+    .page-title .room-price .per-night-text {
+        font-size: 22px;
+    }
+
+    #payment-form .form-row {
+        display: block;
+        width: 100%;
+        float: none;
+    }
+
+    .payment-tabs-content .btn-stripe {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 15px;
+
+    }
+
+    .room-full-slider {
+        padding: 50px 0;
+    }
+
+    .room-full-slider .swiper-slide {
+        border-radius: 0;
+    }
+
+    /* Account Page */
+    .eb-account-menu ul li a {
+        padding: 10px 30px;
+    }
+
+    .eb-branches-grid {
+        display: block;
+    }
+
+    .eb-branch-cover {
+        display: block;
+    }
+
+    .eb-branch-cover {
+        bottom: 0;
+    }
+
+    .eb-branch-page .eb-branch-logo {
+        display: none;
+    }
+
+    .eb-branch-page .eb-branch-details {
+        margin-left: 0;
+        padding-top: 50px;
+    }
+
+    .eb-branch-page .eb-branch-info .eb-branch-title,
+    .eb-branch-page .eb-branch-info .eb-branch-desc,
+    .eb-branch-page .eb-branch-info .eb-branch-contact {
+        padding: 0 15px;
+    }
+
+    .eb-branch-page .eb-branch-header .eb-branch-image .parallax-mirror {
+        top: -130px !important;
+        border-radius: 0;
+    }
+
+    .eb-branch-page .eb-branch-header .eb-branch-image {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .eb-branch-search-form {
+        display: block;
+        position: relative;
+        width: 100%;
+        bottom: 0;
+        margin-top: 30px;
+        z-index: 999;
+    }
+
+    .eb-branch-page .eb-branch-rooms {
+        margin-top: 0;
+        padding: 50px 15px;
+    }
+
+    .eb-rooms-grid,
+    .eb-rooms-grid .second-col {
+        display: block;
+    }
+
+    .eb-rooms-grid .room-item {
+        margin-bottom: 30px;
+    }
+
+    /* Search Forms */
+    .eb-horizontal-search-form .eb-form-fields {
+        column-gap: 10px;
+    }
+
+    .eb-horizontal-search-form .eb-form-fields {
+        display: block;
+    }
+
+    .testimonials .testimonials-owl .owl-dots {
+        display: none;
+    }
+
+    .eb-search-form.eb-slide-search-form .eb-field-button .eb-btn-search-form .eb-btn-text {
+        display: none;
+    }
+
+    .eb-search-form.eb-search-form.eb-slide-search-form .eb-field-button .eb-btn-search-form i {
+        display: inline-block;
+        margin-right: 0;
+    }
+
+    .eb-search-form.eb-slide-search-form .eb-form-fields .eb-field-group {
+        margin-bottom: 0;
+    }
+
+    /* EB Search Page */
+    .eb-search-page {
+        display: block;
+    }
+
+    /* EB Room Page */
+    .eb-room-page.eb-left-sidebar,
+    .eb-room-page.eb-right-sidebar   {
+        display: block;
+    }
+
+    .eb-room-page .room-sidebar {
+        margin-top: 30px;
+    }
+
+    /* EB Checkout Page */
+
+    .eb-checkout-page {
+        display: block;
+    }
+
+    /* EB New Grid System >768 & < 992px */
+    .eb-g-md-1 {
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+    .eb-g-md-2 {
+    grid-template-columns: repeat(2, 1fr);
+    }
+
+    .eb-g-md-3 {
+    grid-template-columns: repeat(3, 1fr);
+    }
+
+    .eb-g-md-4 {
+    grid-template-columns: repeat(4, 1fr);
+    }
+
+    .eb-g-md-5 {
+    grid-template-columns: repeat(5, 1fr);
+    }
+
+    .eb-g-md-6 {
+    grid-template-columns: repeat(6, 1fr);
+    }
+
+    .eb-search-form.eb-horizontal-search-form .btn {
+        width: 100%;
+    }
+
+    .eb-search-page .rooms-bar {
+        margin-top: 30px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .checkout-details .checkout-details-inner {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 10px;
+    }
+
+    .eb-field-group {
+        margin-bottom: 30px;
+    }
+
+    .eb-field-group:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .place-details .place-title {
+        padding: 10px 0;
+    }
+
+    .place-details .place-title .title {
+        font-size: 22px;
+    }
+
+    .eb-rooms-list .room-list-item-archive {
+        display: block;
+    }
+
+    .eb-rooms-list  .room-list-item .room-price {
+        padding: 0 !important;
+    }
+
+
+    .eb-archive-rooms .eb-archive-price-details {
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+
+    .eb-archive-rooms .room-list-item .room-price {
+        padding-bottom: 0;
+    }
+
+    .room-list-item .room-details,
+    .room-list-item.sidebar-none .room-details {
+        padding: 15px;
+    }
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    /* Account Page */
+    .eb-account-menu ul li a {
+        padding: 10px 20px;
+    }
+
+    .eb-page-header {
+        padding: 20px 0;
+    }
+
+    .eb-page-header.eb-room-header .wrapper {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .eb-page-header .title h1,
+    .eb-page-header .room-price .price-number {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .eb-page-header .room-price .per-night-text {
+        font-size: 10px;
+    }
+
+    .eb-page-header .eb-breadcrumbs,
+    .eb-page-header .eb-breadcrumbs li a {
+        font-size: 11px;
+    }
+
+    .eb-page-header .eb-breadcrumbs li:after {
+        padding: 0px 3px 0px 3px;
+    }
+
+
+    .room-slider .swiper-container,
+    .room-full-slider .swiper-container {
+        height: 350px;
+    }
+
+    .room-slider-thumbs .swiper-slide {
+        height: 70px;
+    }
+
+    .room-full-slider {
+        padding: 0;
+        background: none;
+        border-top: 0;
+        border-bottom: 0;
+    }
+    .room-full-slider img {
+        border-radius: 0;
+    }
+
+    .room-slider .swiper-prev,
+    .room-slider .swiper-next {
+        display: none;
+    }
+
+    .room-main-details .room-title h1,
+    .room-main-details .room-price .price-number {
+        font-size: 22px;
+    }
+
+
+    .room-info .item {
+        margin-top: 10px;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .room-page .room-info .item i {
+        margin-right: 5px;
+    }
+
+    .room-page .room-info .room-info-content {
+        font-size: 13px;
+    }
+
+    .eb-dropdown .eb-dropdown-toggle {
+        display: block;
+    }
+
+    .eb-dropdown {
+        display: block;
+    }
+
+    .eb-dropdown .eb-dropdown-menu {
+        width: 100%;
+        top: 33px;
+    }
+
+    .eb-checkout-form .additional-service-item span:nth-child(2) {
+        flex: 35%;
+    }
+
+    .eb-checkout-form .additional-service-item span:last-child{
+        flex: 15%;
+    }
+
+    .additional-service-item .toggle-service-full-details {
+        display: none;
+    }
+
+    .additional-service-item .additional-service-details {
+        font-size: 13px;
+        padding-left: 30px;
+    }
+
+    .eb-tabs .eb-tabs-titles {
+        display: block;
+    }
+
+    .eb-tabs .eb-tab {
+        display: none;
+    }
+
+    .eb-tabs .eb-tab.active {
+        display: block;
+    }
+
+    .eb-arrival-slots {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .checkout-payment-tabs .eb-payment-tabs .payment-tab-item {
+        display: block;
+        margin-right: 0;
+    }
+
+    .checkout-details .checkout-details-inner {
+        display: block;
+    }
+
+    .checkout-details .checkout-details-inner div {
+        margin-bottom: 10px;
+    }
+
+    .checkout-details .checkout-details-inner div:last-child {
+        margin-bottom: 0;
+    }
+
+    .thankyou-page .eb-thank-details {
+        padding: 30px 20px;
+    }
+
+    .eb-slide-search-form .eb-form-fields {
+        column-gap: 10px;
+    }
+
+    /* EB New Grid System < 768px */
+
+    .eb-g-sm-1 {
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+    .eb-g-sm-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .eb-g-sm-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .eb-g-sm-4 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .eb-g-sm-5 {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .eb-g-sm-6 {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .eb-page-header.eb-room-header .normal-price {
+        font-size: 18px;
+    }
+
+    .room-item figure img {
+        width: 100%;
+    }
+
+    .room-list-item .room-services {
+        padding: 0 20px;
+    }
+
+    .eb-branch-search-form .search-form {
+        display: block;
+    }
+
+    .eb-branch-search-form .search-form .eb-field-group {
+        margin-bottom: 30px;
+    }
+
+    .eb-branch-search-form .search-form .eb-btn {
+        width: 100%;
+    }
+
+    /* Calendar */
+    .daterangepicker.dropdown-menu {
+        position: fixed;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        width: 100%;
+        height: 100%;
+        transition: .3s;
+    }
+
+    .daterangepicker .eb-close-calendar {
+        display: block;
+        float: right;
+        font-size: 22px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .daterangepicker .calendar {
+        max-width: 100%;
+    }
+
+    .eb-page-header.eb-room-header .eb-wrapper {
+        grid-template-columns: 2fr 1fr;
+    }
+    .room-main-details {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+
+    .room-slider .swiper-container,
+    .room-full-slider .swiper-container {
+        height: 200px;
+    }
+
+    .room-slider-thumbs .swiper-slide {
+        height: 60px;
+    }
+
+    .room-main-details .room-title h1,
+    .room-main-details .room-price .price-currency,
+    .room-main-details .room-price .price-amount {
+        font-size: 20px;
+    }
+
+    .room-page .section-title {
+        font-size: 16px;
+    }
+
+    .eb-arrival-slots {
+        grid-template-columns: 1fr;
+    }
+
+    /* Account Page */
+    .eb-account-menu ul li a {
+        padding: 10px 10px;
+    }
+
+    .eb-g-sm-1 {
+        grid-template-columns: 1fr;
+    }
+
+}
